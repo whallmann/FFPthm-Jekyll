@@ -1,9 +1,8 @@
 ﻿---
 layout: page
 excerpt: "Willkommen bei Freifunk Partenheim"
-search_omit: false
+search_omit: true
 title: Willkommen
-permalink: /home
 image:
   feature: background_home.jpg
   credit: CC-BY Lukas Ruge
