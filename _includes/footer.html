@@ -1,38 +1,11 @@
-<footer class="site-footer">
+{% if site.owner.google.ad-client and site.owner.google.ad-slot %}{% include ad-footer.html %}{% endif %}
 
-  <div class="wrapper">
+<span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. <br>Die Inhalte stehen unter der <a href ="https://creativecommons.org/publicdomain/zero/1.0/">CC-0 Lizenz</a><br>Fremdinhalte können unter einer anderen Lizenz stehen und sind entsprechend gekennzeichnet</span>
+<div class="social-icons">
+	{% if site.owner.twitter %}<a href="https://twitter.com/{{ site.owner.twitter }}" title="{{ site.owner.name}} auf Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>{% endif %}
+	{% if site.owner.facebook %}<a href="https://facebook.com/{{ site.owner.facebook }}" title="{{ site.owner.name}} auf Facebook" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>{% endif %}
+	{% if site.owner.github %}<a href="https://github.com/{{ site.owner.github }}" title="{{ site.owner.name}} auf Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>{% endif %}
+  <a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
+</div><!-- /.social-icons -->
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer>
+<a href="/impressum">Impressum</a> - <a href="/datenschutz">Datenschutz</a>
