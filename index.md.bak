@@ -1,18 +1,14 @@
 ﻿---
 layout: page
-modified:
-categories:
-title: Villkommen
+excerpt: "Willkommen bei Freifunk Partenheim"
 search_omit: false
-excerpt: Willkommen bei Freifunk-Partenheim
-tags: [freifunk, mitmachen, router]
+title: Willkommen
 image:
   feature: background_home.jpg
   credit: CC-BY Lukas Ruge
   creditlink: https://www.flickr.com/photos/tvluke/21359964616/
-date: 2016-05-16T19:53:06+01:00
 ---
-# Wat is Freifunk?
+
 Freifunk ist ein Projekt, das versucht ein lokales Datennetz auf Basis von
 WLAN-Routern aufzubauen. Dieses Netz soll eine freie Kommunikation innerhalb
 der ganzen Region und, mithilfe von Peerings zu anderen Freifunk-Communities,
