@@ -1,10 +1,13 @@
 # Site navigation links
 
 - title: Home
-  url: /Start/
+  url: /start/
 
-- title: Neues
+- title: Blog
   url: /blog/
+
+- title: Termine
+  url: /termine/
 
 - title: Mitmachen
   url: /mitmachen/
@@ -15,12 +18,11 @@
 - title: Netzstatus
   url: /status/
 
-- title: Termine
-  url: /termine/
-
 - title: Sicherheit
   url: /sicherheit/
 
 - title: FAQ
   url: /faq/
 
+- title: Suche
+  url: /suche/

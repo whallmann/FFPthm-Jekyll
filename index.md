@@ -2,7 +2,7 @@
 layout: page
 modified:
 categories:
-title: Villkommen
+title: Willkommen
 search_omit: false
 excerpt: Willkommen bei Freifunk-Partenheim
 tags: [freifunk, mitmachen, router]
